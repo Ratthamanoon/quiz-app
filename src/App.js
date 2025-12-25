@@ -1,14 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
+import './style.css'
 
 function App() {
-  const divStyle = {
-    color: 'red',
-    backgroundColor: 'powderblue',
-    fontSiza:'larger',
-    padding:'3px',
-  }
-  return <div style={divStyle}>Hello Reacth</div>
+
+  return (
+    <>
+    <h2>Developer.com</h2>
+    <div className="title">React & React Native</div>
+    </>
+  )
 }
 
 export default App;
