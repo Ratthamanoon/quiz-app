@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import './style.css'
-import Button from "./Class-Components";
+
+import { Caclulater2 } from "./calculator";
 
 function App() {
-    return <>
-    <Button/>
-</>
+    return <Caclulater2/>
+    
 }
     
 
